@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+div{
+    text-decoration: none;
+}
+
+div ul {
+    list-style: none;
+    position: relative;
+}
+
+.titulo a {
+    background-color: #2e8b57;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+  }
+
+  
+.menu__item {
+    display: inline-block;
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #2e8b57;
+    display: block;
+    padding: 20px;
+
+}
+
+.menu__item :hover{
+    background-color: #2e8b57;
+    color: black;
+}
+/* header */
