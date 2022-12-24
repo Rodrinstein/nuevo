@@ -1,47 +1,50 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.cuerpo{
+    background-color: #c2b3b3a2;
+}
 header{
-    background-color: rgb(10, 10, 10);
-    text-align: center;
+    display: flex;
+    height: 70px;
+    background-color: rgb(144, 212, 190);
+    justify-content: space-between;
+    align-items: center;
 }
 
-div{
+.logito{
+    display: flex;
+    align-items: center;
+}
+
+.logito img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logito a{
     text-decoration: none;
 }
 
-div ul {
-    list-style: none;
-    position: relative;
+.loguito{
+    margin-left: 10px;
 }
 
-.titulo a {
-    background-color: #2e8b57;
+.na-vi{
     text-decoration: none;
-    display: block;
-    text-align: center;
-    font-size: larger;
-    font-style: oblique;
-  }
-
-  
-.menu__item {
-    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(24, 78, 78);
 }
 
-.menu__link{
-    text-decoration: none;
-    color: #2e8b57;
-    display: block;
-    padding: 20px;
-
+.carousel-item {
+    height: 300px;
 }
 
-.menu__item :hover{
-    background-color: #2e8b57;
-    color: black;
+#carouselExampleControls{
+    padding: 10px;
 }
-/* header */
+
